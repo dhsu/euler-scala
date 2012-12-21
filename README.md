@@ -1,4 +1,4 @@
 euler-scala
 ===========
 
-Learning scala through project euler
+Learning scala through project euler (http://projecteuler.net)
