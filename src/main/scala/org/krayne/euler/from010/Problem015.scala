@@ -9,7 +9,7 @@ object Problem015 extends Problem[Long] {
     def nextCounts(prev: Seq[Long]): Seq[Long] = prev match {
       case Seq() => Vector(2L)
       case Seq(v) => Vector(v+1L, v+1L)
-      case _ => (prev.head+1) +: prev.sliding(2).map(_.sum).toSeq :+ (prev.last+1)
+      case _ @ s => (s.head+1) +: s.sliding(2).map(_.sum).toSeq :+ (s.last+1)
     }
     def loop(i: Int, gridSize: Int, counts: Seq[Long]): Seq[Long] = {
       if(i >= (n-1)*2) counts
