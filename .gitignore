@@ -1,0 +1,13 @@
+# sbt
+target
+project/project
+project/target
+
+# eclipse
+bin
+.cache
+.classpath
+.project
+.settings
+.worksheet
+*.sc
