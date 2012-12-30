@@ -12,8 +12,4 @@ object Problem023 extends Problem[Int] {
   private def isAbundant(x: Int): Boolean = properDivisorSum(x) > x
   private def abundantsLessThan(x: Int): Set[Int] = (1 until x).filter(isAbundant).toSet
   private def isSumFrom(x: Int, numbers: Set[Int]): Boolean = numbers.find(n => numbers.contains(x - n)).isDefined
-  
-  def main(args: Array[String]) {
-    println(Problem023)
-  }
 }
