@@ -12,4 +12,5 @@ class From020 extends FunSuite {
   test("Problem 25") {assert(Problem025.value == BigInt(4782))}
   test("Problem 26") {assert(Problem026.value == 983)}
   test("Problem 27") {assert(Problem027.value == -59231)}
+  test("Problem 28") {assert(Problem028.value == 669171001)}
 }
