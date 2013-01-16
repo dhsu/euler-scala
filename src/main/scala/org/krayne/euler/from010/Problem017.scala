@@ -18,8 +18,4 @@ object Problem017 extends Problem[Long] {
     
     "onethousand".length + (1 to 999).map(letterCount).sum
   }
-  
-  def main(args: Array[String]) {
-    println(Problem017)
-  }
 }
