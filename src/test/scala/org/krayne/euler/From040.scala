@@ -10,4 +10,5 @@ class From040 extends FunSuite {
   test("Problem 43") {assert(Problem043.value == 16695334890L)}
   test("Problem 44") {assert(Problem044.value == 5482660L)}
   test("Problem 45") {assert(Problem045.value == 1533776805L)}
+  test("Problem 46") {assert(Problem046.value == 5777)}
 }
